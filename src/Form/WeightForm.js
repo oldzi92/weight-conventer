@@ -1,17 +1,16 @@
-import { WeightOutpuOunces, WeightOutputGrams, WeightOutputKilograms } from "../Output/WeightOutput";
+import { Output, WeightOutput} from "../Output/WeightOutput";
 
 
-
-export const WeightForm = () => {
-    const [counter, setCounter] = useState(0);
-
-    return <form>
-        <input 
-        type='text' 
-        placeholder="Enter punds"
-           
+export const WeightForm = (props) => {
+    return (
+      <form>
+        <input
+          //   value={} // musisz tutaj cos uzupelnić - skorzystaj z materiałów z zajeć
+          value={props.value} 
+          onChange={props.onPoundsChange}
+          type="text"
+          placeholder="Enter punds"
         />
-        
-    <WeightOutputGrams onClick={()=> setCounter(counter )} />
-        </form>
-}
+      </form>
+    );
+  };

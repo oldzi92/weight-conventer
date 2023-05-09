@@ -1,26 +1,25 @@
-import './App.css';
-import { AppTitle } from './Title/AppTitle';
-import { WeightForm } from './Form/WeightForm';
-import { WeightOutpuOunces, WeightOutput, WeightOutputGrams, WeightOutputKilograms } from './Output/WeightOutput';
-
+import "./App.css";
+import { AppTitle } from "./Title/AppTitle";
+import { WeightForm } from "./Form/WeightForm";
+import { Output, WeightOutput } from "./Output/WeightOutput";
+import { useState } from "react";
 
 function App() {
+  const [wartoscZeStanu, setWartoscZeStanu] = useState(0);
+
   return (
     <div className="App">
-     <article>
+      <article>
+        <AppTitle />
 
-<AppTitle/>
+        <WeightForm onPoundsChange={(event) => setWartoscZeStanu(event.target.value)} />
 
-<WeightForm/>
+        <Output label={"Gramy"}  oblicz = {(wartoscZeStanu * 453.59237)} />
+        <Output label={"Kilogramy"} oblicz= {(wartoscZeStanu * 0.45359237)} />
+        <Output label={"Uncje"} oblicz= {(wartoscZeStanu * 16)} />
+        
 
-<WeightOutputGrams/>
-<WeightOutputKilograms/>
-<WeightOutpuOunces/>
-
-
-     </article>
-  
-
+      </article>
     </div>
   );
 }

@@ -1,26 +1,23 @@
-export const WeightOutputGrams = (props) => {
+export const Output = (props) => {
+  // zobacz co to jest obiekt props w konsoli
+
+  console.log(props);
+
   return (
     <div>
-      <p>Grams: <b>{props.value}</b> </p>
-      
+      <p>{props.label}: {props.oblicz} </p>
+  
     </div>
   );
 };
 
-export const WeightOutputKilograms = (props) => {
-  return (
-    <div>
-     
-      <p>Kilograms: {props.value}</p>
-      
-    </div>
-  );
-};
+// export const WeightOutput = (props) => {
+//   return (
+//     <div>
+//       <p>Grams: <b>{props.value}</b> </p>
+//       <p>Kilograms: <b>{props.value}</b></p>
+//       <p>Ounces: <b>{props.value}</b></p>
 
-export const WeightOutpuOunces = (props) => {
-  return (
-    <div>
-        <p>Ounces: {props.value}</p>
-    </div>
-  );
-};
+//     </div>
+//   );
+// };
