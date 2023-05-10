@@ -1,4 +1,4 @@
-import { Output, WeightOutput} from "../Output/WeightOutput";
+
 
 
 export const WeightForm = (props) => {
@@ -10,6 +10,7 @@ export const WeightForm = (props) => {
           onChange={props.onPoundsChange}
           type="text"
           placeholder="Enter punds"
+          
         />
       </form>
     );

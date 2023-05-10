@@ -1,0 +1,55 @@
+.appContainer {
+  justify-content: center;
+  text-align: center;
+  display: block;
+  background-color: #8d8d8d;
+  color: white;
+}
+
+.titleConverter {
+  font-weight: lighter;
+  font-size: smaller;
+  padding-top: 30px;
+}
+
+.inputConverter {
+  padding: 10px;
+  font-weight: bold;
+}
+.gramsStyle {
+  background-color: #4c49d4;
+  padding-left: 5px;
+  padding-right: 130px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 10px;
+  text-align: center;
+  gap: 10px;
+  display: inline-block;
+  
+}
+
+.kilogramsStyle {
+    background-color: #11B003;
+    padding-left: 5px;
+    padding-right: 130px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 10px;
+    text-align:center;
+    gap: 10px;
+    display: inline-block;
+    
+  }
+  .ouncesStyle {
+    background-color: #F94444;
+    padding-left: 5px;
+    padding-right: 130px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 10px;
+    text-align: center;
+    gap: 10px;
+    display: inline-block;
+    
+  }

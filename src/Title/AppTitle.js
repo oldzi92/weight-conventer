@@ -1,3 +1,3 @@
 export const AppTitle = () => {
-    return <div>WEIGHT CONVENTER</div>
+    return <div>Weight Converter</div>
 }

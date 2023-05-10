@@ -1,11 +1,12 @@
+
 export const Output = (props) => {
   // zobacz co to jest obiekt props w konsoli
 
   console.log(props);
 
   return (
-    <div>
-      <p>{props.label}: {props.oblicz} </p>
+    <div style= {{display: "block"}}>
+      <p style={{ display: "block"}}>{props.label}: {props.oblicz} </p>
   
     </div>
   );
