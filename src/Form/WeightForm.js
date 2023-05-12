@@ -1,6 +1,3 @@
-
-
-
 export const WeightForm = (props) => {
     return (
       <form>

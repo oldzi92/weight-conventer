@@ -9,47 +9,40 @@
 .titleConverter {
   font-weight: lighter;
   font-size: smaller;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .inputConverter {
-  padding: 10px;
   font-weight: bold;
+  width: 20vw;
+  display: inline-block;
 }
 .gramsStyle {
   background-color: #4c49d4;
-  padding-left: 5px;
-  padding-right: 130px;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  font-size: 10px;
+  text-align: center;
+  gap: 10px;
+  display: block;
+  width: 20vw;
+  text-align: left;
+}
+
+.kilogramsStyle {
+  background-color: #11b003;
+  font-size: 10px;
+  text-align: left;
+  gap: 10px;
+  display: inline-block;
+  width: 20vw;
+  display: block;
+}
+.ouncesStyle {
+  background-color: #f94444;
   font-size: 10px;
   text-align: center;
   gap: 10px;
   display: inline-block;
-  
+  width: 20vw;
+  text-align: left;
+  display: block;
 }
-
-.kilogramsStyle {
-    background-color: #11B003;
-    padding-left: 5px;
-    padding-right: 130px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    font-size: 10px;
-    text-align:center;
-    gap: 10px;
-    display: inline-block;
-    
-  }
-  .ouncesStyle {
-    background-color: #F94444;
-    padding-left: 5px;
-    padding-right: 130px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    font-size: 10px;
-    text-align: center;
-    gap: 10px;
-    display: inline-block;
-    
-  }
